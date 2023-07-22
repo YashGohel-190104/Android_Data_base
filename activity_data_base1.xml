@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D16F6F"
+    tools:context=".DataBase_1">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registration Form"
+        android:textSize="35sp"
+        android:layout_marginTop="10dp"
+        android:textColor="#3ADC2F"
+        android:layout_centerHorizontal="true"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/empid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Employee Id"
+        android:textSize="25sp"
+        android:textColor="#D6EFE8"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/empname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/empid"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:hint="Enter Employee Name"
+        android:textSize="25sp"
+        android:textColor="#D6EFE8"
+        ></EditText>
+
+    <EditText
+        android:id="@+id/empsalary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/empname"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:hint="Enter Employee Salary"
+        android:textSize="25sp"
+        android:textColor="#D6EFE8"
+        ></EditText>
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SAVE"
+        android:layout_below="@id/empsalary"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="35sp"
+        android:textColor="#026329"
+        ></Button>
+
+    <Button
+        android:id="@+id/bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SHOW"
+        android:layout_below="@id/empsalary"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="210dp"
+        android:textSize="35sp"
+        android:textColor="#026329"
+        ></Button>
+
+    <Button
+        android:id="@+id/bt3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DELETE"
+        android:layout_below="@id/empsalary"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="210dp"
+        android:textSize="35sp"
+        android:textColor="#026329"
+        ></Button>
+
+    <Button
+        android:id="@+id/bt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="UPDATE"
+        android:layout_below="@id/empsalary"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="35sp"
+        android:textColor="#026329"
+        ></Button>
+
+</RelativeLayout>
